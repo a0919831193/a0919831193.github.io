@@ -1,0 +1,380 @@
+.main {
+    margin-top: 10px;
+    height: 455px;
+    background-color: #f00;
+    margin-left: 220px;
+
+
+}
+
+.focus {
+    /* position: relative; */
+
+}
+
+.focus .box {
+    width: 1000%;
+    height: 100%;
+}
+
+.focus .box li {
+    float: left;
+}
+
+
+
+.main .focus {
+    float: left;
+    width: 721px;
+}
+
+.main .new_flash {
+    float: right;
+    width: 250px;
+
+}
+
+.main .new_flash .news {
+    height: 165px;
+    background-color: #fff;
+}
+
+.main .new_flash .lifeservice {
+    height: 209px;
+    background-color: #fff;
+}
+
+.main .new_flash .bargain {
+    margin-top: 9px;
+
+
+}
+
+
+.news_hd {
+    height: 34px;
+    border: 1px solid #ccc;
+    border-bottom: 1px dotted #ccc;
+
+
+}
+
+.news_hd h5 {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+
+
+}
+
+.news_hd a {
+    margin-top: 5px;
+    float: right;
+    color: rgb(50, 50, 50);
+    font-size: 12px;
+
+
+}
+
+.news_hd a::after {
+    margin-right: 14px;
+    margin-left: 10px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f105";
+    font-weight: 600;
+
+}
+
+.news_bd {
+    padding: 4px 10px 0px;
+    height: 130px;
+    border: 1px solid #ccc;
+    border-top: 0px;
+}
+
+.news_bd li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.news_bd li a {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+
+
+}
+
+.lifeservice {
+    border: 1px solid #ccc;
+    border-top: 0px;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    /* background-color: #f00; */
+}
+
+.lifeservice ul li {
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 8px;
+    background: url("../images/icons.png") no-repeat -19px -16px;
+
+}
+
+.lifeservice ul li:nth-child(2) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 5px;
+    background: url("../images/icons.png") no-repeat -78px -16px;
+
+}
+
+.lifeservice ul li:nth-child(3) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 8px;
+    background: url("../images/icons.png") no-repeat -142px -16px;
+
+}
+
+.lifeservice ul li:nth-child(4) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 2px;
+    background: url("../images/icons.png") no-repeat -203px -16px;
+
+}
+
+.lifeservice ul li:nth-child(5) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 8px;
+    background: url("../images/icons.png") no-repeat -17px -86px;
+
+}
+
+.lifeservice ul li:nth-child(6) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 8px;
+    background: url("../images/icons.png") no-repeat -78px -86px;
+
+}
+
+.lifeservice ul li:nth-child(7) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 8px;
+    background: url("../images/icons.png") no-repeat -144px -86px;
+
+}
+
+.lifeservice ul li:nth-child(8) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 2px;
+    background: url("../images/icons.png") no-repeat -209px -86px;
+
+}
+
+.lifeservice ul li:nth-child(9) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 8px;
+    background: url("../images/icons.png") no-repeat -17px -158px;
+
+}
+
+.lifeservice ul li:nth-child(10) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 8px;
+    background: url("../images/icons.png") no-repeat -78px -158px;
+
+}
+
+.lifeservice ul li:nth-child(11) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 8px;
+    background: url("../images/icons.png") no-repeat -142px -158px;
+
+}
+
+.lifeservice ul li:nth-child(12) i {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 0px 5px 2px;
+    background: url("../images/icons.png") no-repeat -205px -158px;
+
+}
+
+
+
+
+.lifeservice ul li p {
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+}
+
+
+/* 推薦 開始 */
+.recom {
+    height: 163px;
+    margin-top: 10px;
+
+}
+
+.recom_hd {
+    float: left;
+    width: 207px;
+    height: 163px;
+    text-align: center;
+    background-color: rgb(92, 81, 81);
+}
+
+.recom_hd img {
+    margin-top: 30px;
+
+}
+
+
+
+
+.recom_bd li {
+    float: left;
+    position: relative;
+    width: 248px;
+
+}
+
+.recom_bd li::after {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ccc;
+}
+
+/* floor start */
+.jiadian {
+    margin-top: 25px;
+}
+
+.jiadian .box_hd {
+    height: 29px;
+    border-bottom: 3px solid rgb(199, 21, 32);
+}
+
+.jiadian .tab_list {
+    float: right;
+}
+
+.jiadian h3 {
+    float: left;
+    font-weight: 400;
+    color: rgb(199, 21, 32)
+}
+
+
+.jiadian .tab_list ul li {
+    float: left;
+}
+
+.jiadian .tab_list ul li a {
+    font-size: 12px;
+    padding: 0px 16px;
+}
+
+.jiadian .tab_list ul li:hover a {
+    color: rgb(199, 21, 32)
+}
+
+.box_bd {
+    height: 360px;
+    border-bottom: 1px solid #ccc;
+}
+
+.col_210 {
+    float: left;
+    width: 210px;
+}
+
+.col_210 ul {
+    height: 99px;
+    padding-left: 12px;
+
+}
+
+.col_210 ul li {
+    float: left;
+    margin-right: 10px;
+
+
+}
+
+.col_210 ul li a {
+    display: block;
+    width: 86px;
+    height: 33px;
+    line-height: 32px;
+    color: #ccc;
+
+
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    color: #ccc;
+
+}
+
+.col_329 {
+    float: left;
+    width: 329px;
+}
+
+.col_219 {
+    float: left;
+    width: 219px;
+    ;
+}
+
+.col_220 {
+    float: left;
+    width: 220px;
+
+}

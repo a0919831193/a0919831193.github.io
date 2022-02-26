@@ -1,0 +1,51 @@
+.header .sk {
+    position: absolute;
+    top: 40px;
+    left: 157px;
+    border-left: 1px solid rgb(198, 51, 31);
+    padding-left: 14px;
+    height: 26px;
+}
+
+.sk_list li {
+    float: left;
+}
+
+.sk_list li a {
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con li {
+    float: left;
+}
+
+.sk_con li a {
+    height: 45px;
+    line-height: 47px;
+    padding: 0px 23px;
+    font-size: 14px;
+    color: #aaa;
+
+}
+
+
+.sk_con li:last-child a::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f107";
+    margin-left: 5px;
+}
+
+.sk_bd ul li {
+    float: left;
+
+}
+
+.sk_bd ul li+li {
+    margin-left: 13px;
+}

@@ -1,0 +1,424 @@
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(103, 103, 103)
+}
+
+li {
+    list-style: none;
+}
+
+
+input {
+    border: none;
+    outline: none;
+}
+
+.red {
+    color: rgb(197, 0, 0)
+}
+
+.fl {
+    float: left;
+}
+
+.fl ul li a {
+    margin-left: 15px;
+}
+
+.fr {
+    float: right;
+}
+
+.shortcut {
+    height: 31px;
+    background-color: rgb(241, 241, 241);
+    line-height: 31px;
+}
+
+.shortcut li {
+    float: left;
+    font-size: 14px;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: rgb(108, 108, 108);
+    margin: 10px 15px 0px;
+}
+
+
+
+.arrow_icon::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    margin-left: 6px;
+
+}
+
+/* .shortcut結束 */
+/* header開始 */
+.header {
+    position: relative;
+    height: 105px;
+    /* background-color: pink; */
+
+
+
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+    background-color: blue;
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background-color: #000;
+    background: url(../images/pinlogo.png) no-repeat center/100% 100%;
+    font-size: 0px;
+
+}
+
+.search {
+    position: absolute;
+    left: 350px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid rgb(178, 28, 26);
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+}
+
+.search .btn {
+    float: left;
+    width: 80px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    background-color: rgb(178, 28, 26);
+    font-size: 16px;
+    color: #fff;
+}
+
+.hotwords ul {
+    position: absolute;
+    top: 70px;
+    left: 360px;
+}
+
+.hotwords ul li {
+    float: left;
+    top: 10px;
+    left: 10px;
+    margin: 0px 12px 0px;
+    font-size: 12px;
+    color: rgb(103, 103, 103)
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid rgb(166, 166, 166);
+}
+
+.shopcar::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f217";
+    margin-right: 5px;
+    color: rgb(178, 28, 26);
+    font-size: 14px;
+
+
+}
+
+
+.shopcar::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    margin-left: 15px;
+    color: rgb(166, 166, 166);
+}
+
+.shopcar .count {
+    position: absolute;
+    top: -5ox;
+    left: 100px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0px 5px;
+    background-color: rgb(178, 28, 26);
+    color: white;
+    border-radius: 7px 7px 7px 0px;
+}
+
+/* nav */
+.nav {
+    height: 47px;
+    border-bottom: 2px solid rgb(178, 28, 26);
+}
+
+.nav .dropdown {
+    float: left;
+    width: 208px;
+    height: 45px;
+    background-color: rgb(178, 28, 26);
+}
+
+.nav .dropdown .dd {
+    /* display: none; */
+    margin-top: 2px;
+    height: 465px;
+
+}
+
+.nav .navitems {
+    float: left;
+}
+
+.nav .dropdown .dt {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+
+}
+
+.nav .dropdown .dd ul {
+    width: 100%;
+    background-color: rgb(178, 28, 26);
+    /* height: 468px; */
+
+}
+
+.nav .dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-left: 2px;
+}
+
+.nav .dropdown .dd ul li::after {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f054";
+    font-size: 14px;
+    color: white;
+
+}
+
+.nav .dropdown .dd ul li:hover::after {
+    color: rgb(178, 28, 26);
+}
+
+
+
+.nav .dropdown .dd ul li a {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 14px;
+
+}
+
+.nav .dropdown .dd ul li:hover {
+    background-color: #fff;
+
+}
+
+.nav .dropdown .dd ul li:hover a {
+    color: rgb(178, 28, 26);
+}
+
+.navitems ul li {
+    float: left;
+
+}
+
+.navitems ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 24px;
+}
+
+/* footer開始 */
+.footer {
+    background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+}
+
+.mod_service ul {
+    height: 80px;
+    border-bottom: 1px solid #000;
+}
+
+.mod_service ul li {
+    float: left;
+    height: 50px;
+    width: 240px;
+    /* background-color: #f77; */
+}
+
+.mod_service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+    margin-right: 9px;
+}
+
+.mod_service ul li:nth-child(2) h5 {
+    background: url(../images/icons.png) no-repeat -254px -53px
+}
+
+.mod_service ul li:nth-child(3) h5 {
+    background: url(../images/icons.png) no-repeat -256px -106px
+}
+
+.mod_service ul li:nth-child(4) h5 {
+    background: url(../images/icons.png) no-repeat -258px -157px
+}
+
+.mod_service ul li:nth-child(5) h5 {
+    background: url(../images/icons.png) no-repeat -258px -209px
+}
+
+
+.mod_service ul li h4 {
+    font-size: 14px;
+
+
+
+}
+
+.mod_service ul li p {
+    font-size: 12px;
+}
+
+.mod_help {
+    height: 188px;
+    margin-top: 21px;
+
+
+}
+
+.mod_help .w {
+    height: 188px;
+    border-bottom: 1px solid #000;
+}
+
+
+
+.mod_help dl {
+    float: left;
+    width: 198px;
+    padding-left: 50px;
+}
+
+
+
+
+.mod_help dt a {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(120, 120, 120)
+}
+
+.mod_help dd a {
+    font-size: 12px;
+    height: 19px;
+
+    line-height: 19px;
+
+}
+
+.mod_help dl:last-child {
+    width: 144px;
+    text-align: center
+}
+
+.mod_help dl:last-child dt {
+    margin-bottom: 15px;
+
+}
+
+.mod_help dl:last-child img {
+    width: 100%;
+}
+
+.mod_help p {
+    font-size: 12px;
+
+}
+
+/* Copyright */
+.links {
+    height: 22px;
+}
+
+.mod_copyright {
+    margin-top: 20px;
+    padding-left: 116px;
+}
+
+.mod_copyright li {
+    float: left;
+    padding: 0px 12px;
+
+}
+
+
+
+
+.mod_copyright li+li {
+    border-left: 1px solid #ccc;
+}
+
+.copyright {
+    margin-top: 20px;
+    height: 28px;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+}
