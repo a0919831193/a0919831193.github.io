@@ -14,6 +14,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .btn-style:hover {
@@ -33,4 +34,6 @@ a {
 .list-group-item:hover {
   background-color: #f99;
 }
-/*# sourceMappingURL=index.css.map */
+.dropdown-menu a{
+color: #aaa;
+}
