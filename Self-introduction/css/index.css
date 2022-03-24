@@ -1,7 +1,14 @@
 body {
   position: relative;
-  /* background-color: #ccc; */
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
 }
+
+/* .container-fluid {
+  padding: 0;
+  margin: 0;
+} */
 
 .nav-style a {
   padding: 10px;
@@ -27,6 +34,15 @@ li {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0px;
+  margin: 0px;
 }
 
 .row {
@@ -65,7 +81,9 @@ a {
 }
 
 .info {
+  width: 100%;
   padding-top: 130px;
+
 
 }
 
@@ -126,7 +144,7 @@ a {
 
 /* skill */
 .skill {
-
+  width: 100%;
   background-color: #222;
 
 }
