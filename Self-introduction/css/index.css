@@ -39,16 +39,16 @@ li {
 
 .container {
   width: 100%;
-  overflow-x: hidden;
+
   margin: 0 auto;
   padding: 0px;
-  margin: 0px;
+
 }
 
 .row {
   width: 100%;
   margin: 0px;
-  padding: 0px;
+
 }
 
 .focus {
@@ -71,14 +71,11 @@ a {
 
 
 .about {
-  /* margin: 150px 0px; */
-  /* padding: 150px 0px; */
+
   background-color: #ccc;
 }
 
-.self {
-  width: 100%;
-}
+.self {}
 
 .info {
   width: 100%;
