@@ -1,10 +1,8 @@
 let banner = document.querySelector('.partical-img ')
-console.log(banner.src)
 
-console.log(banner);
-banner.addEventListener('click', function () {
-  
-})
+
+
+
 
 
 window.addEventListener('resize', function () {
